@@ -12,4 +12,5 @@ public class User {
         password = uPassword;
         System.out.println("User constructor - end");
     }
+    public User(){};
 }
