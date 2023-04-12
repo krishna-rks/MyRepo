@@ -7,7 +7,6 @@ of a class
 */
 
 #include<iostream>
-
 using namespace std;
 
 /*
@@ -20,8 +19,9 @@ private:
     const int m_value;
 
 public:
-/*
+
     // This is not the correct way of initializing a const variable
+/*
     Something()
     {
         // error: const vars can not be assigned to, it must be initialized in the constructor
@@ -37,9 +37,6 @@ public:
 // Initialization of reference data members
 // This is also same as const member above.
 
-#include<iostream>
-using namespace std;
-
 class Test {
 	int &t;
 public:
@@ -47,14 +44,13 @@ public:
 	int getT() { return t; }
 };
 
-
 /* OUTPUT:
 	20
 	30
 */
 
-// Initializing array members with member initializer lists
 
+// Initializing array members with member initializer lists
 class Something1
 {
 private:
